@@ -76,7 +76,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1915582716" green="0.2856920362" blue="0.48072665930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.20923778414726257" green="0.27697259187698364" blue="0.36011314392089844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -103,7 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="home" id="j9W-Gs-9Sr">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="home" id="j9W-Gs-9Sr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -146,20 +146,8 @@
                                 <rect key="frame" x="163" y="307" width="61" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="loading-1" image="loading-1" id="11q-ht-PUX">
-                                <rect key="frame" x="163" y="307" width="61" height="19"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="loading-2" id="jSL-kJ-nrX">
-                                <rect key="frame" x="163" y="307" width="61" height="19"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" misplaced="YES" image="loading-3" id="zIH-gk-fVT">
-                                <rect key="frame" x="163" y="307" width="61" height="19"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20184576509999999" green="0.25740948320000001" blue="0.33636218309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="ImageView" destination="vLg-hq-0hi" id="921-j8-Ncd"/>
@@ -214,7 +202,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.1915582716" green="0.2856920362" blue="0.48072665930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.20107102394104004" green="0.27699533104896545" blue="0.36016190052032471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="chatIcon" destination="wO1-ko-BQb" id="wha-tl-Mup"/>
@@ -322,9 +310,6 @@
         <image name="home_selected_icon" width="35" height="35"/>
         <image name="home_spinner" width="146" height="146"/>
         <image name="link_icon" width="75" height="95"/>
-        <image name="loading-1" width="61" height="19"/>
-        <image name="loading-2" width="61" height="19"/>
-        <image name="loading-3" width="61" height="19"/>
         <image name="login_form" width="300" height="132"/>
         <image name="nevermind" width="320" height="53"/>
         <image name="photo_icon" width="75" height="95"/>
